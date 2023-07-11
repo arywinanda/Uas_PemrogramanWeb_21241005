@@ -1,0 +1,845 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+a{
+  text-decoration: none;
+  color:#f2eee3;
+}
+a:hover{
+  color:red;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* CSS */
+
+.desktop-5,
+.desktop-5 * {
+  box-sizing: border-box;
+}
+.desktop-5 {
+  background: #ffffff;
+  width: 1440px;
+  height: 5120px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-53 {
+  background: #785e4d;
+  width: 1440px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.portofo-lio {
+  text-align: left;
+  font: 700 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 69px;
+  top: 30px;
+  width: 144px;
+  height: 41px;
+}
+.portofo-lio-span {
+  color: #ff8426;
+  font: 700 25px "Poppins", sans-serif;
+}
+.portofo-lio-span2 {
+  color: #f2eee3;
+  font: 700 25px "Poppins", sans-serif;
+}
+.home {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 756px;
+  top: 30px;
+  width: 82px;
+  height: 41px;
+}
+.about {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 876px;
+  top: 30px;
+  width: 84px;
+  height: 41px;
+}
+.skill {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 998px;
+  top: 30px;
+  width: 54px;
+  height: 41px;
+}
+.portofolio {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 1090px;
+  top: 30px;
+  width: 134px;
+  height: 41px;
+}
+.contact {
+  width: 113px;
+  height: 41px;
+  position: absolute;
+  left: 1235px;
+  top: 30px;
+}
+.contact2 {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 25px "Poppins", sans-serif;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 113px;
+  height: 41px;
+}
+.image-27 {
+  width: 1440px;
+  height: 5025px;
+  position: absolute;
+  left: 0px;
+  top: 95px;
+}
+.image-18 {
+  width: 1404px;
+  height: 902px;
+  position: absolute;
+  left: 54px;
+  top: 119px;
+}
+.ellipse-18 {
+  background: #f2eee3;
+  border-radius: 50%;
+  width: 71.33px;
+  height: 71.33px;
+  position: absolute;
+  left: 182px;
+  top: 626px;
+}
+.rectangle-41 {
+  background: #785e4d;
+  border-radius: 10px 10px 0px 0px;
+  width: 1440px;
+  height: 100px;
+  position: absolute;
+  left: 0px;
+  top: 5026px;
+}
+.copyright-2023-by-arywinanda-all-rights-reserved {
+  color: #ffffff;
+  text-align: left;
+  font: 700 20px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 221px);
+  top: 5061px;
+}
+.saya-adalah-seorang-web-designer-yang-memiliki-kecintaan-mendalam-terhadap-menciptakan-tampilan-yang-memukau-dan-pengalaman-pengguna-yang-luar-biasa {
+  color: #ffffff;
+  text-align: left;
+  font: 500 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 600px;
+  top: 1510.35px;
+  width: 820.14px;
+  height: 301.65px;
+}
+.i-wayan-ary-winanda-putra {
+  text-align: left;
+  font: 500 40px "Poppins", sans-serif;
+  position: absolute;
+  left: 600px;
+  top: 1386.21px;
+  width: 747.49px;
+  height: 81.1px;
+}
+.i-wayan-ary-winanda-putra-span {
+  color: #f2eee3;
+  font: 500 40px "Poppins", sans-serif;
+}
+.i-wayan-ary-winanda-putra-span2 {
+  color: #ff8426;
+  font: 500 40px "Poppins", sans-serif;
+}
+.i-wayan-ary-winanda-putra-span3 {
+  color: #f2eee3;
+  font: 500 40px "Poppins", sans-serif;
+}
+.about-me {
+  text-align: center;
+  font: 500 48px "Poppins", sans-serif;
+  position: absolute;
+  left: 609px;
+  top: 1180px;
+  width: 250px;
+  height: 63px;
+}
+.about-me-span {
+  color: #ff8426;
+  font: 500 48px "Poppins", sans-serif;
+}
+.about-me-span2 {
+  color: #f2eee3;
+  font: 500 48px "Poppins", sans-serif;
+}
+.rectangle-36 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 239px;
+  top: 3408px;
+}
+.image-20 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 248px;
+  top: 3417px;
+}
+.rectangle-37 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 594px;
+  top: 3408px;
+}
+.image-19 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 603px;
+  top: 3417px;
+}
+.rectangle-38 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 950px;
+  top: 3408px;
+}
+.image-21 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 958px;
+  top: 3417px;
+}
+.rectangle-35 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 239px;
+  top: 3714px;
+}
+.code-2 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 247px;
+  top: 3723px;
+}
+.rectangle-40 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 594px;
+  top: 3714px;
+}
+.b-43-c-0-b-0-d-65-e-7500-b-6-f-95222-ae-5021835-2 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 604px;
+  top: 3723px;
+}
+.rectangle-39 {
+  background: linear-gradient(
+    180deg,
+    rgba(242, 238, 227, 1) 0%,
+    rgba(186, 175, 146, 1) 29.16666567325592%,
+    rgba(120, 94, 77, 1) 59.89583134651184%,
+    rgba(255, 132, 38, 1) 100%
+  );
+  border-radius: 30px;
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 950px;
+  top: 3714px;
+}
+.image-182 {
+  border-radius: 20px;
+  width: 232px;
+  height: 232px;
+  position: absolute;
+  left: 959px;
+  top: 3723px;
+}
+.latest-project {
+  text-align: left;
+  font: 500 40px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 154px);
+  top: 3259px;
+  width: 307px;
+  height: 56px;
+}
+.latest-project-span {
+  color: #ff8426;
+  font: 500 40px "Poppins", sans-serif;
+}
+.latest-project-span2 {
+  color: #f2eee3;
+  font: 500 40px "Poppins", sans-serif;
+}
+.element-15 {
+  position: absolute;
+  left: 556px;
+  top: 1253px;
+  overflow: visible;
+}
+.image-28 {
+  width: 1440px;
+  height: 857px;
+  position: absolute;
+  left: 0px;
+  top: 68px;
+}
+.ellipse-17 {
+  background: #d9d9d9;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 183px;
+  top: 626px;
+}
+.image-25 {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  left: 190px;
+  top: 634px;
+}
+.ellipse-19 {
+  background: #f2eee3;
+  border-radius: 50%;
+  width: 71.33px;
+  height: 71.33px;
+  position: absolute;
+  left: 300px;
+  top: 626px;
+}
+.image-24 {
+  width: 56px;
+  height: 56px;
+  position: absolute;
+  left: 308px;
+  top: 634px;
+}
+.ellipse-20 {
+  background: #f2eee3;
+  border-radius: 50%;
+  width: 71.33px;
+  height: 71.33px;
+  position: absolute;
+  left: 416px;
+  top: 626px;
+}
+.ellipse-21 {
+  background: #f2eee3;
+  border-radius: 50%;
+  width: 71.33px;
+  height: 71.33px;
+  position: absolute;
+  left: 532px;
+  top: 626px;
+}
+.image-26 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 543px;
+  top: 637px;
+}
+.image-23 {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  left: 427px;
+  top: 637px;
+}
+.saya-seorang-desainer-web-dengan-pengalaman-selama-2-tahun-keahlian-adalah-untuk-membuat-dan-desain-website-desain-front-end-dan-masih-banyak-lagi {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 20px "Poppins", sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 496px;
+  width: 838px;
+  height: 125px;
+}
+.im-ary-winanda {
+  text-align: left;
+  font: 600 48px "Poppins", sans-serif;
+  position: absolute;
+  left: 158px;
+  top: 417px;
+  width: 457px;
+  height: 79px;
+}
+.im-ary-winanda-span {
+  color: #ff8426;
+  font: 600 48px "Poppins", sans-serif;
+}
+.im-ary-winanda-span2 {
+  color: #f2eee3;
+  font: 600 48px "Poppins", sans-serif;
+}
+.hello {
+  color: #f2eee3;
+  text-align: left;
+  font: 700 36px "Ubuntu", sans-serif;
+  position: absolute;
+  left: 158.19px;
+  top: 358px;
+  width: 109.73px;
+  height: 44.99px;
+  transform-origin: 0 0;
+  transform: rotate(0.246deg) scale(1, 1);
+}
+.image-29 {
+  width: 1440px;
+  height: 876px;
+  position: absolute;
+  left: 0px;
+  top: 4152px;
+}
+.rectangle-372 {
+  background: #ff8426;
+  width: 252px;
+  height: 61px;
+  position: absolute;
+  left: 615px;
+  top: 4828px;
+}
+.send-message {
+  color: #f2eee3;
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 652px;
+  top: 4845px;
+}
+.rectangle-382 {
+  background: #f2eee3;
+  width: 868px;
+  height: 260px;
+  position: absolute;
+  left: 323px;
+  top: 4540px;
+}
+.your-message {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 4556px;
+}
+.rectangle-402 {
+  background: #f2eee3;
+  width: 418px;
+  height: 61px;
+  position: absolute;
+  left: 773px;
+  top: 4445px;
+}
+.email-subject {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 815px;
+  top: 4458px;
+}
+.rectangle-362 {
+  background: #f2eee3;
+  width: 418px;
+  height: 61px;
+  position: absolute;
+  left: 326px;
+  top: 4445px;
+}
+.mobile-n-umber {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 4458px;
+}
+.rectangle-352 {
+  background: #f2eee3;
+  width: 418px;
+  height: 61px;
+  position: absolute;
+  left: 323px;
+  top: 4350px;
+}
+.full-name {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 365px;
+  top: 4359px;
+}
+.rectangle-392 {
+  background: #f2eee3;
+  width: 418px;
+  height: 61px;
+  position: absolute;
+  left: 773px;
+  top: 4350px;
+}
+.email-address {
+  color: rgba(0, 0, 0, 0.8);
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 815px;
+  top: 4363px;
+}
+.contact-me {
+  text-align: left;
+  font: 500 48px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 143px);
+  top: 4235px;
+  width: 361px;
+  height: 56px;
+}
+.contact-me-span {
+  color: #ff8426;
+  font: 500 48px "Poppins", sans-serif;
+}
+.contact-me-span2 {
+  color: #f2eee3;
+  font: 500 48px "Poppins", sans-serif;
+}
+.rectangle-54 {
+  background: #1b1818;
+  width: 1440px;
+  height: 825px;
+  position: absolute;
+  left: 0px;
+  top: 2207px;
+}
+.my-skill {
+  text-align: center;
+  font: 500 48px "Poppins", sans-serif;
+  position: absolute;
+  left: calc(50% - 80px);
+  top: 2250px;
+  width: 216px;
+  height: 56px;
+}
+.my-skill-span {
+  color: #ff8426;
+  font: 500 48px "Poppins", sans-serif;
+}
+.my-skill-span2 {
+  color: #f2eee3;
+  font: 500 48px "Poppins", sans-serif;
+}
+.rectangle-10 {
+  background: #ff8426;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 785px;
+  top: 2771px;
+}
+.game-developer {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 927px;
+  top: 2596px;
+}
+.programming {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 799px;
+  top: 2775px;
+}
+.programming2 {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 927px;
+  top: 2786px;
+}
+.rectangle-9 {
+  background: #ff8426;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 241px;
+  top: 2771px;
+}
+.graphic-design {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 255px;
+  top: 2775px;
+}
+.graphic-design2 {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 2786px;
+}
+.rectangle-7 {
+  background: #ff8426;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 240px;
+  top: 2570px;
+}
+.instagram {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 256px;
+  top: 2585px;
+}
+.sosial-media {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 2596px;
+}
+.rectangle-8 {
+  background: #ff8426;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 784px;
+  top: 2570px;
+}
+.games {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 799px;
+  top: 2585px;
+}
+.rectangle-5 {
+  border-radius: 20px;
+  position: absolute;
+  left: calc(50% - 480px);
+  top: 2380px;
+  overflow: visible;
+}
+.idea {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 256px;
+  top: 2395px;
+}
+.rectangle-6 {
+  background: #ff8426;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  left: 790px;
+  top: 2380px;
+}
+.world-wide-web {
+  width: 70px;
+  height: 70px;
+  position: absolute;
+  left: 805px;
+  top: 2395px;
+}
+.web-developer {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 933px;
+  top: 2406px;
+}
+.ui-ux-designer {
+  color: #f2eee3;
+  text-align: left;
+  font: 600 32px "Poppins", sans-serif;
+  position: absolute;
+  left: 383px;
+  top: 2406px;
+}
+.ary-1 {
+  width: 838px;
+  height: 816px;
+  position: absolute;
+  left: 647px;
+  top: 48px;
+}
+.ellipse-22 {
+  background: #785e4d;
+  border-radius: 50%;
+  width: 504px;
+  height: 504px;
+  position: absolute;
+  left: 39px;
+  top: 1199px;
+}
+.rectangle-353 {
+  border-radius: 30px;
+  position: absolute;
+  left: 203px;
+  top: 768px;
+  overflow: visible;
+}
+.ary-2 {
+  width: 680px;
+  height: 662px;
+  position: absolute;
+  left: -80px;
+  top: 996px;
+  transform-origin: 0 0;
+ 
+}
+.element-16 {
+  position: absolute;
+  left: 34px;
+  top: 1641px;
+  overflow: visible;
+}
+.download-cv {
+  color:#f2eee3;
+  text-align: left;
+  font: 500 24px "Poppins", sans-serif;
+  position: absolute;
+  left: 260px;
+  top: 788px;
+  width: 180px;
+  height: 39px;
+}
